@@ -61,9 +61,9 @@ You are not required to handle command line argument interpretation since it is 
 
 In the presence of the test cases, an example usage could be given as:
 ```
-$ ./parser.out test/io/inputs/inp_0.txt your_output_dir/out_0.txt
+$ ./parser.out test/io/public/inputs/inp_0.txt your_output_dir/out_0.txt
 ```
-After the execution of the above bash command, one file would be created in `your_output_dir` folder. This file should be the same as `test/io/ground_truth/gt_out_0.txt`.
+After the execution of the above bash command, one file would be created in `your_output_dir` folder. This file should be the same as `test/io/public/ground_truth/gt_out_0.txt`.
 
 # Output Format
 In this assignment, you are NOT required to explicity print anything by making calls to `printf()` or `fprintf()`. Instead, you will make use of the printer functions given to you, modify the necessary variables and return the correct values from your functions. This will make your program print the correct output on your output file.
@@ -105,11 +105,11 @@ For further information about command line arguments, read the [Command Line Arg
 # Test & Grade
 Test cases with their ground truth outputs were prepared to help you test your solutions. Also, simple tester and grader scripts are included to allow you run your tests in automated manner.
 
-You could find the input files in [test/io/inputs/](test/io/inputs/) folder. The files that your solution should output are included in [test/io/ground_truth/](test/io/ground_truth/) folder.
+You could find the input files in [test/io/](test/io/) folder. The files that your solution should output are included in [test/io/public/ground_truth/](test/io/public/ground_truth/) and [test/io/private/ground_truth/](test/io/private/ground_truth/) folders.
 
-Since the input files are not easily understandable, the corresponding PL/0 code files are also included in [test/io/inputs_in_pl0/](test/io/inputs_in_pl0/). These files are not going to be used as an input to your parser. They are the PL/0 code files which are used to obtain the token lists included in [test/io/inputs/](test/io/inputs/) folder.
+Since the input files are not easily understandable, the corresponding PL/0 code files are also included in [test/io/public/inputs_in_pl0/](test/io/public/inputs_in_pl0/) and [test/io/private/inputs_in_pl0/](test/io/private/inputs_in_pl0/). These files are not going to be used as an input to your parser. They are the PL/0 code files which are used to obtain the token lists included in folders [test/io/public/inputs/](test/io/public/inputs/) and [test/io/private/inputs/](test/io/private/inputs/).
 
-Targets for testing and grading also exist in the [Makefile](Makefile). The target `run_parser` allows you to run your parser on all the given test cases and creates the printed outputs of parser inside [test/io/your_outputs/](test/io/your_outputs/) folder. The target `grade` runs your parser on all the given test cases, creates the printed outputs of your parser and compares it with the ground truth outputs which are included in [test/io/ground_truth/](test/io/ground_truth/) folder.
+Targets for testing and grading also exist in the [Makefile](Makefile). The target `run_parser` allows you to run your parser on all the given test cases and creates the printed outputs of parser inside the folders [test/io/public/your_outputs/](test/io/public/your_outputs/) and [test/io/private/your_outputs/](test/io/private/your_outputs/). The target `grade` runs your parser on all the given test cases, creates the printed outputs of your parser and compares it with the ground truth outputs which are included in folders [test/io/public/ground_truth/](test/io/public/ground_truth/) and [test/io/private/ground_truth/](test/io/private/ground_truth/).
 
 Basically, what you should do to get printed outputs from your parser as a result of feeding the test cases is:
 ```

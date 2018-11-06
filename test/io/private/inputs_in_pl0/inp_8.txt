@@ -1,0 +1,16 @@
+/* Error case 13: Right parenthesis missing */
+const m = 7;
+var  i;
+
+procedure myproc;
+  const n = 8;
+  begin
+  end;
+
+/* main func */
+begin
+  i := m;
+  call myproc;
+  
+  i := -(m * (i + m) /* error ! */
+end.

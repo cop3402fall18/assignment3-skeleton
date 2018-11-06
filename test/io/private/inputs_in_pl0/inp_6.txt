@@ -1,0 +1,14 @@
+/* Error case 11: 'do' expected */
+const m = 7;
+var  i;
+
+procedure myproc;
+  const n = 8;
+  begin
+  end;
+
+/* main func */
+begin
+  while m >= i /* error! */
+    i := i + 1;
+end.

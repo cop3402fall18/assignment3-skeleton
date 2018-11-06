@@ -1,0 +1,291 @@
+Parsing History
+===============
+NONTERM: PROGRAM
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'a'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '0'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'i'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'myproc'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'b'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '1'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'j'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'proclvl2'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'c'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '2'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'k'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'proclvl3'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+NONTERM: VAR_DECLARATION
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'proclvl4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'c4'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'v4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <identsym, 'v4'>
+TOKEN  : <becomessym, ':='>
+NONTERM: EXPRESSION
+NONTERM: TERM
+NONTERM: FACTOR
+TOKEN  : <identsym, 'c4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <writesym, 'write'>
+TOKEN  : <identsym, 'c'>
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'proclvl22'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'cc'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '2'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'kk'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'proclvl33'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+NONTERM: VAR_DECLARATION
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'proclvl44'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'cc4'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '5'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'vv4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <identsym, 'vv4'>
+TOKEN  : <becomessym, ':='>
+NONTERM: EXPRESSION
+NONTERM: TERM
+NONTERM: FACTOR
+TOKEN  : <identsym, 'cc4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <writesym, 'write'>
+TOKEN  : <identsym, 'cc4'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <callsym, 'call'>
+TOKEN  : <identsym, 'proclvl33'>
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <readsym, 'read'>
+TOKEN  : <identsym, 'j'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <callsym, 'call'>
+TOKEN  : <identsym, 'insideproc'>
+TOKEN  : <endsym, 'end'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <identsym, 'i'>
+TOKEN  : <becomessym, ':='>
+NONTERM: EXPRESSION
+NONTERM: TERM
+NONTERM: FACTOR
+TOKEN  : <identsym, 'm'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: STATEMENT
+TOKEN  : <callsym, 'call'>
+TOKEN  : <identsym, 'myproc'>
+TOKEN  : <endsym, 'end'>
+TOKEN  : <periodsym, '.'>
+
+
+Symbol Table
+============
+#0
+   Type: CONST
+   Name: a
+  Value: 0
+  Level: 0
+
+#1
+   Type: VAR
+   Name: i
+  Level: 0
+
+#2
+   Type: PROC
+   Name: myproc
+  Level: 0
+
+#3
+   Type: CONST
+   Name: b
+  Value: 1
+  Level: 1
+
+#4
+   Type: VAR
+   Name: j
+  Level: 1
+
+#5
+   Type: PROC
+   Name: proclvl2
+  Level: 1
+
+#6
+   Type: CONST
+   Name: c
+  Value: 2
+  Level: 2
+
+#7
+   Type: VAR
+   Name: k
+  Level: 2
+
+#8
+   Type: PROC
+   Name: proclvl3
+  Level: 2
+
+#9
+   Type: PROC
+   Name: proclvl4
+  Level: 3
+
+#10
+   Type: CONST
+   Name: c4
+  Value: 4
+  Level: 4
+
+#11
+   Type: VAR
+   Name: v4
+  Level: 4
+
+#12
+   Type: PROC
+   Name: proclvl22
+  Level: 1
+
+#13
+   Type: CONST
+   Name: cc
+  Value: 2
+  Level: 2
+
+#14
+   Type: VAR
+   Name: kk
+  Level: 2
+
+#15
+   Type: PROC
+   Name: proclvl33
+  Level: 2
+
+#16
+   Type: PROC
+   Name: proclvl44
+  Level: 3
+
+#17
+   Type: CONST
+   Name: cc4
+  Value: 5
+  Level: 4
+
+#18
+   Type: VAR
+   Name: vv4
+  Level: 4
+
+
+PARSING WAS SUCCESSFUL.

@@ -1,0 +1,41 @@
+Parsing History
+===============
+NONTERM: PROGRAM
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'm'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '7'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'i'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+TOKEN  : <procsym, 'procedure'>
+TOKEN  : <identsym, 'myproc'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: BLOCK
+NONTERM: CONST_DECLARATION
+TOKEN  : <constsym, 'const'>
+TOKEN  : <identsym, 'n'>
+TOKEN  : <eqsym, '='>
+TOKEN  : <numbersym, '8'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: VAR_DECLARATION
+TOKEN  : <varsym, 'var'>
+TOKEN  : <identsym, 'y'>
+TOKEN  : <semicolonsym, ';'>
+NONTERM: PROC_DECLARATION
+NONTERM: STATEMENT
+TOKEN  : <beginsym, 'begin'>
+NONTERM: STATEMENT
+TOKEN  : <identsym, 'y'>
+TOKEN  : <becomessym, ':='>
+NONTERM: EXPRESSION
+NONTERM: TERM
+NONTERM: FACTOR
+TOKEN  : <identsym, 'n'>
+
+PARSING ERROR[10]: Semicolon or 'end' expected.

@@ -1,0 +1,2 @@
+Token Type         Lexeme
+        19              .

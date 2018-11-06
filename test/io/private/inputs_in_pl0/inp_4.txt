@@ -1,0 +1,14 @@
+/* Error case 9: 'then' expected */
+const m = 7;
+var  i;
+
+procedure myproc;
+  const n = 8;
+  begin
+  end;
+
+/* main func */
+begin
+  if i <> m /* error! */
+    i := m;
+end.

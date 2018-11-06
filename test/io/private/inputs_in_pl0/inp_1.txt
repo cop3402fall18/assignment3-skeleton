@@ -1,0 +1,60 @@
+/* Symbols at different levels - more levels */
+const a = 0;
+var i;
+
+procedure myproc;
+  /* Level 1 */
+  const b = 1;
+  var j;
+
+  procedure proclvl2;
+    /* Level 2 */
+    const c = 2;
+    var k;
+    procedure proclvl3;
+      /* Level 3 */
+      procedure proclvl4;
+        /* Level 4 */
+        const c4 = 4;
+        var v4;
+        begin
+          v4 := c4;
+        end;
+      begin
+      end;
+
+    begin
+      write c
+    end;
+
+  procedure proclvl22;
+    /* Level 2 */
+    const cc = 2;
+    var kk;
+    procedure proclvl33;
+      /* Level 3 */
+      procedure proclvl44;
+        /* Level 4 */
+        const cc4 = 5;
+        var vv4;
+        begin
+          vv4 := cc4;
+        end;
+      begin
+      end;
+
+    begin
+      write cc4;
+      call proclvl33
+    end;
+
+  begin
+    read j;
+    call insideproc
+  end;
+
+/* main func */
+begin
+  i := m;
+  call myproc
+end.

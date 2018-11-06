@@ -1,0 +1,14 @@
+/* Error case 8: 'call' must be followed by an identifier */
+const m = 7;
+var  i;
+
+procedure myproc;
+  const n = 8;
+  begin
+  end;
+
+/* main func */
+begin
+  i := m;
+  call 1 /* error! */
+end.

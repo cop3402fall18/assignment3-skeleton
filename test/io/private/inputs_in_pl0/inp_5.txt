@@ -1,0 +1,17 @@
+/* Error case 10: Semicolon or 'end' expected */
+const m = 7;
+var  i;
+
+procedure myproc;
+  const n = 8;
+  var y;
+  begin
+    y := n /* error! */
+    write y
+  end;
+
+/* main func */
+begin
+  i := m;
+  call myproc
+end.

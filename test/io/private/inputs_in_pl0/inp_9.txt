@@ -1,0 +1,13 @@
+/* Error case 14: The preceding factor cannot begin with this symbol */
+const m = 7;
+var  i;
+
+procedure myproc;
+  const n = 8;
+  begin
+  end;
+
+/* main func */
+begin
+  i := call myproc; /* error! */
+end.

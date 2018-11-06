@@ -31,4 +31,4 @@ removeObjectFiles:
 	rm -f main.o token.o parser.o data.o symbol.o
 
 clean: removeObjectFiles
-	rm $(OUT_FILE) test/io/your_outputs -rf
+	rm $(OUT_FILE) test/io/public/your_outputs test/io/private/your_outputs -rf
